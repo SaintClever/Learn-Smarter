@@ -1,0 +1,10 @@
+# 01 - Introduction to Python
+# 02 - Getting Started with Python
+# 03 - Variables and Data Types
+# 04 - User Input and Output
+# 05 - Conditional Statements
+# 06 - Loops
+# 07 - Lists and Arrays
+# 08 - Dictionaries
+# 09 - Functions
+# 10 - Mini Project: Simple Game
