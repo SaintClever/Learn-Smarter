@@ -2,7 +2,7 @@
 name = "Julia"
 age = 10
 
-
+print("My name is:", name)
 print("My age is:", age)
 
 
@@ -19,3 +19,21 @@ print("My favorite color is", favorite_color)
 # Question: Define a variable "favorite_subject" and assign your favorite school subject ("Mathematics") to it. Then print out a message saying "My favorite subject is {favorite_subject}".
 favorite_subject = "Mathematics"
 print("My favorite subject is", favorite_subject)
+
+
+# Question: Print the current year minus your birth year
+current_year = 2024
+print(2000 - 1900)
+
+
+# Question: Multiply the string "Blind Mice... " by 3
+print(3 * "Blind Mice... ")
+
+
+#
+
+
+#
+
+
+#
