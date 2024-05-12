@@ -33,3 +33,6 @@ lucky_number = int(input("What's your lucky number? "))
 
 # 12. How much does a slice of pizza cost?
 pizza_cost = float(input("How much does a slice of pizza cost? "))
+
+age = 10
+print(f"I am {age} years old.")
