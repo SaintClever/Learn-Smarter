@@ -12,20 +12,9 @@
 	<link rel="stylesheet" href="../static/css/style.css">
 	<link rel="stylesheet" href="../static/css/styles.css">
 
-	<!-- highlight.js -->
-	<!-- <link rel="stylesheet" href="../static/highlight/styles/a11y-dark.css" />
-	<script src="../static/highlight/highlight.min.js"></script>
-	<script>hljs.highlightAll();</script> -->
-
-	<!-- prism.js -->
-	<link rel="stylesheet" href="../static/prism/okaidia.css" />
-	<script src="../static/prism/okaidia.js"></script>
-
 </head>
 
 <body>
-	<pre><code class="language-python">print("Hello")</code></pre>
-
 	<!-- partial:index.partial.html -->
 
 	<div class="image-container set-full-height"
@@ -63,7 +52,6 @@
 									<h3 class="wizard-title">
 										Learn Smarter
 									</h3>
-									<h5>Python</h5>
 								</div>
 								<div class="wizard-navigation">
 									<ul>
@@ -76,10 +64,12 @@
 									<div class="tab-pane" id="index">
 
 										<div class="row">
-											<h4 class="info-text">
-												Introduction to Python
-											</h4>
-											<div class="col-sm-12">
+											<div class="col-sm-6">
+												<a href="{{ url_for('book') }}">
+													<img src="../static/images/cover.jpg" alt="cover" width="100%">
+												</a>
+											</div>
+											<div class="col-sm-6">
 												<div class="form-group">
 													<!-- <label class="control-label">Example</label> -->
 													<h4>
