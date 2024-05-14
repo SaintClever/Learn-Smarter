@@ -48,20 +48,22 @@
 							<form action="" method="">
 								<!-- You can switch 'data-color="blue"' with one of the next bright colors: "green", "orange", "red", "purple" -->
 
-								<div class="wizard-header">
+								<!-- <div class="wizard-header">
 									<h3 class="wizard-title">
 										Learn Smarter
 									</h3>
-								</div>
-								<div class="wizard-navigation">
+								</div> -->
+								<!-- Uncomment for navbar
+									<div class="wizard-navigation">
 									<ul>
 										<li><a href="#index" data-toggle="tab">Index</a></li>
 										<li><a href="{{ url_for('book') }}">Book</a></li>
 									</ul>
-								</div>
+								</div> -->
 
 								<div class="tab-content">
-									<div class="tab-pane" id="index">
+									<!-- to add nave bar functionality add to below divclass="tab-pane" id="index"-->
+									<div>
 
 										<div class="row">
 											<div class="col-sm-6">
@@ -76,11 +78,11 @@
 														Introduction
 													</h4>
 													<p class="">
-														Welcome to <b style="color:#FF3B30">“Learn Smarter - Python 1st edition”</b> a technical
+														Welcome to <b style="color:#FF3B30;">“Learn Smarter - Python 1st edition”</b> a technical
 														beginner's guide
 														to learning one of the most popular programming languages in the world. In this book, you'll
 														embark on a journey to understand the fundamental concepts of Python programming and how to
-														apply them in real-world scenarios. Within “Learn Smarter" every chapter covered you’ll
+														apply them in real-world scenarios. Within “Learn Smarter" every chapter covered you'll
 														encounter a challenge to catapult your programming skills to the next level.”
 													</p>
 													<br>
@@ -109,6 +111,12 @@
 														writing of this book.
 													</p>
 
+													<div class="pull-left">
+														<a href="{{ url_for('book') }}">
+															<input type='button' class='btn btn-fill btn-danger btn-wd' name='next' value='Next' />
+														</a>
+													</div>
+
 												</div>
 											</div>
 										</div>
@@ -117,16 +125,16 @@
 
 								<div class="wizard-footer">
 
-									<div class="pull-right">
+									<!-- <div class="pull-right">
 										<input type='button' class='btn btn-next btn-fill btn-danger btn-wd' name='next' value='Next' />
 										<input type='button' class='btn btn-finish btn-fill btn-danger btn-wd' name='finish'
 											value='Finish' />
-									</div>
+									</div> -->
 
-									<div class="pull-left">
+									<!-- <div class="pull-left">
 										<input type='button' class='btn btn-previous btn-fill btn-default btn-wd' name='previous'
 											value='Previous' />
-										<!-- <div class="footer-checkbox">
+										<div class="footer-checkbox">
 											<div class="col-sm-12">
 												<div class="checkbox">
 													<label>
@@ -135,8 +143,8 @@
 													Subscribe to our newsletter
 												</div>
 											</div>
-										</div> -->
-									</div>
+										</div>
+									</div> -->
 
 									<div class="clearfix"></div>
 								</div>
@@ -162,7 +170,6 @@
 		<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
 		<script src="../static/js/script.js"></script>
 		<script src="../static/js/python-auto-indetation.js"></script>
-		<script src="../static/js/ide.js"></script>
 </body>
 
 </html>

@@ -13,19 +13,16 @@
 	<link rel="stylesheet" href="../static/css/styles.css">
 
 	<!-- highlight.js -->
-	<!-- <link rel="stylesheet" href="../static/highlight/styles/a11y-dark.css" />
+	<!-- <link rel="stylesheet" href="../static/highlight/styles/atom-one-dark.css" />
 	<script src="../static/highlight/highlight.min.js"></script>
 	<script>hljs.highlightAll();</script> -->
 
 	<!-- prism.js -->
 	<link rel="stylesheet" href="../static/prism/okaidia.css" />
 	<script src="../static/prism/okaidia.js"></script>
-
 </head>
 
 <body>
-	<pre><code class="language-python">print("Hello")</code></pre>
-
 	<!-- partial:index.partial.html -->
 
 	<div class="image-container set-full-height"
@@ -63,7 +60,7 @@
 									<h3 class="wizard-title">
 										Learn Smarter
 									</h3>
-									<h5>Python</h5>
+									<!-- <h5>Python</h5> -->
 								</div>
 								<div class="wizard-navigation">
 									<ul>
@@ -86,49 +83,61 @@
 
 								<div class="tab-content">
 									<div class="tab-pane" id="1">
-
 										<div class="row">
 											<h4 class="info-text">
-												Introduction to Python
+												Chapter 1 - Introduction to Python
 											</h4>
-											<div class="col-sm-12">
+											<div class="col-sm-6">
+												<div class="form-group">
+													<img style="border-radius: 50%; border: 5px solid #FF3B30; margin: 0px 0px 0px 65px;"
+														src="https://avatars.githubusercontent.com/u/2894642?v=4" alt="Guido van
+													Rossum" width="75%">
+												</div>
+											</div>
+											<div class="col-sm-6">
 												<div class="form-group">
 													<!-- <label class="control-label">Example</label> -->
-													<h4>
-														Introduction
-													</h4>
-													<p class="">
-														Welcome to <b style="color:#FF3B30">“Learn Smarter - Python 1st edition”</b> a technical
-														beginner's guide
-														to learning one of the most popular programming languages in the world. In this book, you'll
-														embark on a journey to understand the fundamental concepts of Python programming and how to
-														apply them in real-world scenarios. Within “Learn Smarter" every chapter covered you’ll
-														encounter a challenge to catapult your programming skills to the next level.”
+													<p>
+														<sub style="font-size: 30px; font-weight: bold; color:#FF3B30;">W</sub>elcome to Python
+														programming! Python is a versatile, easy-to-learn language used in web development, data
+														analysis, AI, and more. It's known for its readability and simplicity.
 													</p>
 													<br>
 
-													<h4>
-														Preface
-													</h4>
-													<p class="">
-														This book is designed for absolute beginners with no prior
-														programming experience. Whether you're a student, a
-														professional looking to switch careers, or simply curious
-														about coding, this book will provide you with a solid
-														foundation in Python programming.<br><br>
-
-														In writing this book, my goal is to provide entry and junior level coders a with a practical
-														and technical guide for developing their coding skills.
+													<strong>
+														&bull; Who created Python?
+													</strong>
+													<p>
+														Python was created by <a href="https://github.com/gvanrossum" target="_blank"
+															style="font-weight: bold; color:#FF3B30;">Guido van
+															Rossum</a>, a
+														Dutch programmer, and it was first released in
+														1991.
 													</p>
 													<br>
 
-													<h4>
-														Acknowledgments
-													</h4>
-													<p class="">
-														I would like to express my sincere gratitude to my parents
-														for their support and encouragement throughout the
-														writing of this book.
+													<strong>
+														&bull; Why learn Python?
+													</strong>
+													<p>
+														Python is versatile, readable, boasts a large community, and is in high demand in the job
+														market.
+													</p>
+													<br>
+
+													<strong>
+														&bull; How to set up Python?
+													</strong>
+													<p>
+														We'll install python from <a href="python.org" target="_blank"
+															style="font-weight: bold; color:#FF3B30;">python.org</a>, however for the first few
+														chapters we'll use an embedded code editor.
+													</p>
+													<br>
+
+													<p>
+														<a href="#" target="_blank" style="font-weight: bold; color:#FF3B30;">Chapter 1 -
+															Introduction to Python Challenge</a>
 													</p>
 
 												</div>
@@ -138,57 +147,124 @@
 
 									<div class="tab-pane" id="2">
 										<div class="row">
-											<div class="col-sm-12">
-												<h4 class="info-text">Introduction to Python</h4>
+											<h4 class="info-text">
+												Chapter 2 - Variables and Data Types
+											</h4>
+											<div class="col-sm-6">
+												<div class="form-group">
+													<!-- <label class="control-label">Example</label> -->
+													<p>
+														<sub style="font-size: 30px; font-weight: bold; color:#FF3B30;">W</sub>e'll learn about
+														variables and basic data types. Imagine variables like boxes where you can put stuff, and
+														data types like the different kinds of information you can put in those boxes.
+													</p>
+													<br>
+
+													<strong>
+														&bull; What are Variables and Data Types?
+													</strong>
+													<p>
+														Variables are like labeled containers. Within these containers we place our information to
+														be used for later use. The information placed in these containers can be numbers, words, and
+														lists of things, just like how you might have separate boxes for your shoes, clothes, and
+														books. Each container holds a specific type of information, making it easier for the
+														computer to understand what we're working with.
+													</p>
+
+													<pre><code class="language-python">name = 'Julia' age = 10</code></pre>
+
+													<p style="text-align: center;">
+														variable = information<br>
+														The image above displays two variables. A variable called name with the information of
+														someone named Julia, and a variable called age with someone's age as 10.
+													</p>
+													<br>
+
+													<strong>
+														&bull; What are strings and integers?
+													</strong>
+													<p>
+														Did you Notice “Julia" is in quotes and our number / integer is not? That's because strings
+														are represented as quotes. Think of strings like colored beads placed on a string necklace.
+														Each bead represents a letter or a symbol, while integers are plain number blocks used for
+														counting and math.
+													</p>
+													<br>
+
+													<strong>
+														&bull; What is print: <a href="python.org" target="_blank"
+															style="font-weight: bold; color:#FF3B30;">print( )</a>
+													</strong>
+													<p>
+														Suppose we want to see what's stored in our variables. We can use a special Python key word
+														called <a href="#" target="_blank" style="font-weight: bold; color:#FF3B30;">print</a>.
+													</p>
+													<br>
+
+													<p>
+														<a href="#" target="_blank" style="font-weight: bold; color:#FF3B30;">Chapter 2 - Variables
+															and Data Types</a>
+													</p>
+
+												</div>
 											</div>
 											<div class="col-sm-6">
-												<div class="input-group">
-													<span class="input-group-addon">
-														<i class="material-icons">email</i>
-													</span>
-													<div class="form-group label-floating">
-														<label class="control-label">Your Email</label>
-														<input name="name" type="text" class="form-control">
-													</div>
-												</div>
+												<div class="form-group">
+													<!-- <label class="control-label">Example</label> -->
+													<p>
+														<sub style="font-size: 30px; font-weight: bold; color:#FF3B30;">W</sub>e'll learn about
+														variables and basic data types. Imagine variables like boxes where you can put stuff, and
+														data types like the different kinds of information you can put in those boxes.
+													</p>
+													<br>
 
-												<div class="input-group">
-													<span class="input-group-addon">
-														<i class="material-icons">lock_outline</i>
-													</span>
-													<div class="form-group label-floating">
-														<label class="control-label">Your Password</label>
-														<input name="name2" type="password" class="form-control">
-													</div>
-												</div>
+													<strong>
+														&bull; What are Variables and Data Types?
+													</strong>
+													<p>
+														Variables are like labeled containers. Within these containers we place our information to
+														be used for later use. The information placed in these containers can be numbers, words, and
+														lists of things, just like how you might have separate boxes for your shoes, clothes, and
+														books. Each container holds a specific type of information, making it easier for the
+														computer to understand what we're working with.
+													</p>
 
-											</div>
-											<div class="col-sm-6">
-												<div class="form-group label-floating">
-													<label class="control-label">Country</label>
-													<select class="form-control">
-														<option disabled="" selected=""></option>
-														<option value="Afghanistan"> Afghanistan </option>
-														<option value="Albania"> Albania </option>
-														<option value="Algeria"> Algeria </option>
-														<option value="American Samoa"> American Samoa </option>
-														<option value="Andorra"> Andorra </option>
-														<option value="Angola"> Angola </option>
-														<option value="Anguilla"> Anguilla </option>
-														<option value="Antarctica"> Antarctica </option>
-														<option value="...">...</option>
-													</select>
-												</div>
-												<div class="form-group label-floating">
-													<label class="control-label">Daily Budget</label>
-													<select class="form-control">
-														<option disabled="" selected=""></option>
-														<option value="Afghanistan">
-															< $100 </option>
-														<option value="Albania"> $100 - $499 </option>
-														<option value="Algeria"> $499 - $999 </option>
-														<option value="American Samoa"> $999+ </option>
-													</select>
+													<pre><code class="language-python">name = 'Julia' age = 10</code></pre>
+
+													<p style="text-align: center;">
+														variable = information<br>
+														The image above displays two variables. A variable called name with the information of
+														someone named Julia, and a variable called age with someone's age as 10.
+													</p>
+													<br>
+
+													<strong>
+														&bull; What are strings and integers?
+													</strong>
+													<p>
+														Did you Notice “Julia" is in quotes and our number / integer is not? That's because strings
+														are represented as quotes. Think of strings like colored beads placed on a string necklace.
+														Each bead represents a letter or a symbol, while integers are plain number blocks used for
+														counting and math.
+													</p>
+													<br>
+
+													<strong>
+														&bull; What is print: <a href="python.org" target="_blank"
+															style="font-weight: bold; color:#FF3B30;">print( )</a>
+													</strong>
+													<p>
+														We'll install python from <a href="python.org" target="_blank"
+															style="font-weight: bold; color:#FF3B30;">python.org</a>, however for the first few
+														chapters we'll use an embedded code editor.
+													</p>
+													<br>
+
+													<p>
+														<a href="#" target="_blank" style="font-weight: bold; color:#FF3B30;">Chapter 2 - Variables
+															and Data Types</a>
+													</p>
+
 												</div>
 											</div>
 										</div>
@@ -503,7 +579,6 @@
 		<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
 		<script src="../static/js/script.js"></script>
 		<script src="../static/js/python-auto-indetation.js"></script>
-		<script src="../static/js/ide.js"></script>
 </body>
 
 </html>
