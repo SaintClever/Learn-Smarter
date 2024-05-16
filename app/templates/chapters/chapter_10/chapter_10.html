@@ -1,20 +1,52 @@
 <div class="tab-pane" id="10">
   <div class="row">
-    <h4 class="info-text">Introduction to Python</h4>
-    <div class="col-sm-6 col-sm-offset-1">
+
+    <div class="col-sm-6">
       <div class="form-group">
-        <label>Room description</label>
-        <textarea class="form-control" placeholder="" rows="6"></textarea>
+        <h4 class="info-text">
+          Chapter 10 - Classes
+        </h4>
+        <p>
+          <sub style="font-size: 30px; font-weight: bold; color:#FF3B30;">I</sub>magine you're customizing a character
+          in a video game.
+          The default character presented to you is a blueprint so
+          to say. This blueprint is the starting point from which
+          you create, customize or spawn new characters from. Each
+          character you create has its own special properties or
+          abilities, like hair color or special move. Now, think of
+          classes in Python as blueprints for creating these different
+          types of characters.
+        </p>
+        <br>
+
+        <strong>
+          &bull; class:
+        </strong>
+        <p>
+          In Python, a class uses the class key word, followed by the
+          name of our class in Pascal Case, for example:
+          LikeThisClassName. We initialize or construct our class to
+          have a def __init__(self ). This allows properties in our
+          class, similar to nouns. Next we can create a method
+          which acts as verbs or functions which typically modify
+          our attributes.
+        </p>
+
+        {% include "./chapters/chapter_10/chapter_10Ex_01.html" %}
+
       </div>
     </div>
-    <div class="col-sm-4">
+    <div class="col-sm-6">
       <div class="form-group">
-        <label class="control-label">Example</label>
-        <p class="description">"The room really nice name is recognized as being a really
-          awesome
-          room. We use it every sunday when we go fishing and we catch a lot. It has some kind
-          of
-          magic shield around it."</p>
+
+        <iframe style="border-radius: 10px; overflow: hidden; border: 1px solid #FF3B30;"
+          src="https://trinket.io/embed/python3/8a800776ac" width="100%" height="250" frameborder="0" marginwidth="0"
+          marginheight="0" allowfullscreen></iframe><br><br>
+
+        <p>
+          <a href="#" target="_blank" style="font-weight: bold; color:#FF3B30;">Chapter 10 - Classes Challenge</a>
+        </p>
+
       </div>
     </div>
   </div>
