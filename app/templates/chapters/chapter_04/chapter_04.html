@@ -1,20 +1,105 @@
 <div class="tab-pane" id="4">
   <div class="row">
-    <h4 class="info-text">Introduction to Python</h4>
-    <div class="col-sm-6 col-sm-offset-1">
+
+    <div class="col-sm-6">
       <div class="form-group">
-        <label>Room description</label>
-        <textarea class="form-control" placeholder="" rows="6"></textarea>
+        <h4 class="info-text">
+          Chapter 4 - User Input and Output
+        </h4>
+        <p>
+          <sub style="font-size: 30px; font-weight: bold; color:#FF3B30;">I</sub>magine you're playing a game on your
+          computer, and
+          the game wants to ask you something, like your name
+          or age. Python's <a href="python.org" target="_blank" style="font-weight: bold; color:#FF3B30;">input( )</a>
+          is like a way for the game to
+          talk to you and ask for information. So, when the game
+          asks, "What's your name?" and you type "Jane" and hit
+          Enter, Python's input helps the game understand what you
+          typed. It's like having a conversation with the computer!
+        </p>
+        <br>
+
+        <strong>
+          &bull; What if the users input is a integer: <a href="python.org" target="_blank"
+            style="font-weight: bold; color:#FF3B30;">int( )</a>
+        </strong>
+        <p>
+          Let's say the question is “What's your lucky number?" and
+          you answer "15". Even-though it appears to be a integer
+          the input method converts everything to a string. To
+          transform a stringed integer to a whole number use the
+          int method as followed.
+        </p>
+
+        {% include "./chapters/chapter_04/chapter_04Ex_01.html" %}
+        <br>
+
+        <strong>
+          &bull; What if the users input is a float: <a href="python.org" target="_blank"
+            style="font-weight: bold; color:#FF3B30;">float( )</a>
+        </strong>
+        <p>
+          Now, imagine the question is "How much does a slice of
+          pizza cost?" and you answer “2.75”, that's also a string.
+          We would have to use the float method to convert our
+          answer if we want to probably use it in a math equation.
+        </p>
+
+        {% include "./chapters/chapter_04/chapter_04Ex_02.html" %}
+        <br>
+
+        <strong>
+          &bull; What if the users input is a string: <a href="python.org" target="_blank"
+            style="font-weight: bold; color:#FF3B30;">str( )</a>
+        </strong>
+        <p>
+          Finally, if the question is "What's your favorite color?"
+          and you answer "blue", no converting is needed.
+          However if you feel the need to convert a int or a float
+          into a string
+        </p>
+
       </div>
     </div>
-    <div class="col-sm-4">
+    <div class="col-sm-6">
       <div class="form-group">
-        <label class="control-label">Example</label>
-        <p class="description">"The room really nice name is recognized as being a really
-          awesome
-          room. We use it every sunday when we go fishing and we catch a lot. It has some kind
-          of
-          magic shield around it."</p>
+
+        {% include "./chapters/chapter_04/chapter_04Ex_03.html" %}
+        <br>
+
+        <strong>
+          &bull; f-string:
+        </strong>
+        <p>
+          An f-string is like a magical way to put your age or any
+          other information into a sentence easily. You just put an
+          'f' before the string of text you want to write, and then
+          inside the text, you can put curly braces {} where you
+          want to put your information.
+        </p>
+
+        {% include "./chapters/chapter_04/chapter_04Ex_04.html" %}
+        <br>
+
+        <strong>
+          &bull; Bonus:
+        </strong>
+        <p>
+          When creating a variable with more then one word use
+          snake_case, an underscore after every word. When we
+          have an input as a stringed int / float we can convert the
+          input to a int or float.
+        </p>
+
+        <iframe style="border-radius: 10px; overflow: hidden; border: 1px solid #FF3B30;"
+          src="https://trinket.io/embed/python3/8a800776ac" width="100%" height="250" frameborder="0" marginwidth="0"
+          marginheight="0" allowfullscreen></iframe><br><br>
+
+        <p>
+          <a href="#" target="_blank" style="font-weight: bold; color:#FF3B30;">Chapter 4 - User Input and Output
+            Challenge</a>
+        </p>
+
       </div>
     </div>
   </div>
