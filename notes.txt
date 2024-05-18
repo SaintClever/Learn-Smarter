@@ -1,4 +1,5 @@
 in the external repl add commented questions
-ex
+
+ex:
 # Add your name to the variable
 name = ______

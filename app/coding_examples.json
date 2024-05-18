@@ -1,4 +1,0 @@
-{
-  "variables_dataTypes": "name = \"Julia\"\nage = 10",
-  "print": "print(name)\nprint(age)\n\nprint(\"My name is:\", name)\nprint(\"My age is:\", age)"
-}
