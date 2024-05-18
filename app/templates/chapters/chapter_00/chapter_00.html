@@ -1,0 +1,66 @@
+<!-- You can switch 'data-color="blue"' with one of the next bright colors: "green", "orange", "red", "purple" -->
+
+<div class="tab-content">
+  <!-- to add nave bar functionality add to below divclass="tab-pane" id="index"-->
+  <div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <a href="{{ url_for('book') }}">
+          <img src="../static/images/cover.jpg" alt="cover" width="100%">
+        </a>
+      </div>
+      <div class="col-sm-6">
+        <div class="form-group">
+          <h4>
+            Introduction
+          </h4>
+          <p class="">
+            Welcome to <b style="color:#FF3B30;">“Learn Smarter - Python 1st edition”</b> a technical
+            beginner's guide
+            to learning one of the most popular programming languages in the world. In this book, you'll
+            embark on a journey to understand the fundamental concepts of Python programming and how to
+            apply them in real-world scenarios. Within “Learn Smarter" every chapter covered you'll
+            encounter a challenge to catapult your programming skills to the next level.”
+          </p>
+          <br>
+
+          <h4>
+            Preface
+          </h4>
+          <p class="">
+            This book is designed for absolute beginners with no prior
+            programming experience. Whether you're a student, a
+            professional looking to switch careers, or simply curious
+            about coding, this book will provide you with a solid
+            foundation in Python programming.<br><br>
+
+            In writing this book, my goal is to provide entry and junior level coders a with a practical
+            and technical guide for developing their coding skills.
+          </p>
+          <br>
+
+          <h4>
+            Acknowledgments
+          </h4>
+          <p class="">
+            I would like to express my sincere gratitude to my parents
+            for their support and encouragement throughout the
+            writing of this book.
+          </p>
+
+          <div class="pull-left">
+            <a href="{{ url_for('book') }}">
+              <input type='button' class='btn btn-fill btn-danger btn-wd' name='next' value='Next' />
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="wizard-footer">
+									<div class="clearfix"></div>
+								</div> -->
