@@ -10,3 +10,9 @@ def make_sandwich():
     "4. Enjoy your sandwich!")
 
 print(make_sandwich()) 
+
+
+# Create a function called "bake_cake" and return the steps of baking a cake
+
+
+# Create a function called "friends" and return a list of friends
