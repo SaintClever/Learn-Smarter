@@ -12,3 +12,8 @@ async def index(request: Request):
 @router.get("/book", response_class=HTMLResponse)
 async def book(request: Request):
     return templates.TemplateResponse("base.html", {"request": request})
+
+
+@router.get("/challenges", response_class=HTMLResponse)
+async def challenges(request: Request):
+    return templates.TemplateResponse("challenges/base.html", {"request": request})
