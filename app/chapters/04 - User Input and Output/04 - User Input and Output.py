@@ -1,13 +1,21 @@
-# 1. What is your name?
+# Problem 1:
+# Using input ask someone "what is your name?"
+# print out the result
 name = input("What is your name? ")
 
-# 2. How old are you?
+# Problem 2:
+# Using input ask someone "how old are you?"
+# print out the result
 age = input("How old are you? ")
 
-# 3. What is your favorite color?
+# Problem 3:
+# Using input ask someone "what is your favorite color?"
+# print out the result
 favorite_color = input("What's your favorite color? ")
 
-# 4. Do you have any pets? If so, what are their names?
+# Problem 4:
+# Using input ask someone ask "Do you have any pets? If so, what are their names?"
+# print out the result
 pets = input("Do you have any pets? If so, what are their names? ")
 
 # 5. What is your favorite subject in school?

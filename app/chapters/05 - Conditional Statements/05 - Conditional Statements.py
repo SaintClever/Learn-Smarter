@@ -1,28 +1,62 @@
-# What does this Python expression evaluate to: 5 == 5?
+# Problem 1:
+# Write a Python program that checks if a number is positive. If it is, print "The number is positive."
+number = 5
+if number > 0:
+    print("The number is positive.")  # Expected output: The number is positive.
 
-# If x = 8, what will x > 10 evaluate to?
+# Problem 2:
+# Write a Python program that checks if a number is negative. If it is, print "The number is negative."
+number = -3
+if number < 0:
+    print("The number is negative.")  # Expected output: The number is negative.
 
-# If y = 3, what will y != 2 evaluate to?
+# Problem 3:
+# Write a Python program that checks if a number is zero. If it is, print "The number is zero."
+number = 0
+if number == 0:
+    print("The number is zero.")  # Expected output: The number is zero.
 
-# What does 6 < 4 evaluate to?
+# Problem 4:
+# Write a Python program that checks if the age is greater than or equal to 18. If it is, print "You are an adult."
+age = 20
+if age >= 18:
+    print("You are an adult.")  # Expected output: You are an adult.
 
-# If a = 7, what will a >= 7 evaluate to?
+# 5. Write a Python program that checks if a person is a teenager (age between 13 and 19). If they are, print "You are a teenager."
+age = 15
+if 13 <= age <= 19:
+    print("You are a teenager.")  # Expected output: You are a teenager.
 
-# What does 10 == 10.0 evaluate to?
+# 6. Write a Python program that checks if a number is even. If it is, print "The number is even."
+number = 4
+if number % 2 == 0:
+    print("The number is even.")  # Expected output: The number is even.
 
-# If b = 12, what will b <= 10 evaluate to?
+# 7. Write a Python program that checks if a number is odd. If it is, print "The number is odd."
+number = 7
+if number % 2 != 0:
+    print("The number is odd.")  # Expected output: The number is odd.
 
-# What does 4 != 4 evaluate to?
+# 8. Write a Python program that checks if a score is an A (90 or above). If it is, print "You got an A!"
+score = 92
+if score >= 90:
+    print("You got an A!")  # Expected output: You got an A!
 
-# If c = 5, what will c < 5 evaluate to?
+# 9. Write a Python program that checks if the temperature is below freezing (32 degrees Fahrenheit). If it is, print "It's freezing!"
+temperature = 30
+if temperature < 32:
+    print("It's freezing!")  # Expected output: It's freezing!
 
-# What does 3 > 5 evaluate to?
+# 10. Write a Python program that checks if a number is both greater than 10 and less than 20. If it is, print "The number is between 10 and 20."
+number = 15
+if 10 < number < 20:
+    print("The number is between 10 and 20.")  # Expected output: The number is between 10 and 20.
 
-# 1. Do you have a pet? If yes, print "Lucky you!"
-# pet = input("Do you have a pet? (yes/no): ")
 
-# if pet == "yes":
-#     print("Lucky you!")
+
+
+
+
 
 # 2. What's your age? If it's greater than 10, print "You are growing up!"
 age = int(input("What's your age? "))
