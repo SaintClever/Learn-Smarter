@@ -1,7 +1,7 @@
 # Books
-.epub
-.pdf
-.txt
+*.epub
+*.pdf
+*.txt
 app/chapter - questions
 book/
 
