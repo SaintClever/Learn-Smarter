@@ -1,3 +1,10 @@
+# Books
+.epub
+.pdf
+.txt
+app/chapter - questions
+book/
+
 # Mac
 .DS_Store
 
