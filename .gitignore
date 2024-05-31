@@ -4,6 +4,7 @@
 *.txt
 app/chapter - questions
 book/
+notes/
 
 # Mac
 .DS_Store
