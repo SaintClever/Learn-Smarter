@@ -2,8 +2,9 @@
 *.epub
 *.pdf
 *.txt
+*.pages
 app/chapter - questions
-# book/
+book/
 notes/
 
 # Mac
