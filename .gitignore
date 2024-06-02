@@ -1,11 +1,11 @@
-# # Books
-# *.epub
-# *.pdf
-# *.txt
-# *.pages
-# app/chapter - questions
-# book/
-# notes/
+# Books
+*.epub
+*.pdf
+*.txt
+*.pages
+app/chapter - questions
+book/
+notes/
 
 # Mac
 .DS_Store

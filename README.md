@@ -3,3 +3,4 @@
 ## [Learn Smarter Challenges](https://learnsmarter.onrender.com/challenges) - https://learnsmarter.onrender.com/challenges
 
 ![Learn Smarter](assets/learnsmarter.gif "Learn Smarter")
+![Learn Smarter](assets/cover.jpg "Learn Smarter")
