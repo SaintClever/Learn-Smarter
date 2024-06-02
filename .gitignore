@@ -3,7 +3,7 @@
 *.pdf
 *.txt
 app/chapter - questions
-book/
+# book/
 notes/
 
 # Mac
