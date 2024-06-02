@@ -1,0 +1,74 @@
+Chapter 0: Introduction to Python
+What is Python?
+History and Evolution
+Python's Popularity and Applications
+
+Chapter 1: Getting Started with Python
+Setting Up Python Environment
+Installing Python
+Using Integrated Development Environments (IDEs)
+Writing Your First Python Program
+
+Chapter 2: Variables and Data Types
+Understanding Variables
+Numeric Data Types (int, float)
+String Data Type
+Boolean Data Type
+Type Conversion
+
+Chapter 3: User Input and Output
+Input Functions (input())
+Output Functions (print())
+Formatting Output
+
+Chapter 4: Conditional Statements
+Introduction to Conditionals
+if, elif, else Statements
+Nested Conditionals
+Ternary Operator
+
+Chapter 5: Loops
+Introduction to Loops
+while Loop
+for Loop
+Loop Control Statements (break, continue)
+
+Chapter 6: Lists and Arrays
+Introduction to Lists
+List Manipulation (Append, Extend, Insert, Remove)
+Accessing List Elements
+List Slicing
+Multidimensional Lists
+
+Chapter 7: Dictionaries
+Introduction to Dictionaries
+Creating and Accessing Dictionaries
+Modifying Dictionaries
+Dictionary Methods
+
+Chapter 8: Functions
+Introduction to Functions
+Defining Functions
+Function Arguments and Return Values
+Scope of Variables
+Lambda Functions
+
+Chapter 9: Classes / (OOP)
+Introduction to Classes / Object-Oriented Programming (OOP)
+Defining Classes
+Class Attributes and Methods
+Constructors and Destructors
+Inheritance and Polymorphism
+
+Chapter 10: Mini Project: Simple Game
+Game Concept and Rules
+Implementing the Game
+Adding User Interaction
+Enhancements and Challenges
+Appendix
+
+Additional Resources for Learning Python
+Common Python Libraries and Frameworks
+Glossary of Python Terminologies
+Solutions to Chapter Exercises
+Each chapter will include practical examples, exercises, and challenges to reinforce learning. The appendix will serve as a reference guide and provide further resources for readers to continue their Python journey.
