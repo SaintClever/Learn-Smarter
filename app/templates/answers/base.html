@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Learn Smarter</title>
+</head>
+{% include "stylesheets.html" %}
+
+<body>
+	<!-- partial:index.partial.html -->
+	<div class="image-container set-full-height"
+		style="background-image: url('../static/images/background.jpg'); background-repeat: no-repeat; background-attachment: fixed; padding-bottom: 100px;">
+
+		<!--  Made With Material Kit  -->
+		<a href="https://github.com/SaintClever" class="made-with-mk" target="_blank">
+			<div class="brand">S.C</div>
+			<div class="made-with">Made by <strong>Saint. Clever</strong></div>
+		</a>
+
+		<!-- Big container -->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-sm-offset-0">
+					<!-- Wizard container -->
+					<div class="wizard-container">
+						<div class="card wizard-card" data-color="red" id="wizard">
+							<form action="" method="">
+								<!-- You can switch 'data-color="blue"' with one of the next bright colors: "green", "orange", "red", "purple" -->
+
+								<div class="wizard-header">
+									<h3 class="wizard-title">
+										Learn Smarter
+									</h3>
+								</div>
+
+								{% include "navigation.html" %}
+								{% include "./answers/content.html" %}
+								{% include "footer.html" %}
+
+							</form>
+						</div>
+					</div> <!-- wizard container -->
+				</div>
+			</div> <!-- row -->
+		</div> <!--  big container -->
+		{% include "scripts.html" %}
+</body>
+
+</html>

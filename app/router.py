@@ -23,3 +23,8 @@ async def book(request: Request):
 @router.get("/challenges", response_class=HTMLResponse)
 async def challenges(request: Request):
     return templates.TemplateResponse("challenges/base.html", {"request": request})
+
+
+@router.get("/answers", response_class=HTMLResponse)
+async def answers(request: Request):
+    return templates.TemplateResponse("answers/base.html", {"request": request})
